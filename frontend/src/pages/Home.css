@@ -1,0 +1,118 @@
+/* ========================================
+   Item List Container
+======================================== */
+
+.ItemListContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 880px;
+    min-height: 60vh;
+    border-radius: 10px;
+    background-color: rgb(73, 111, 161);
+    
+}
+
+/* ========================================
+   Top Bar
+======================================== */
+
+.ItemListTop {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.LimitSelectorContainer {
+    margin-left: auto;
+}
+
+/* ========================================
+   Buttons
+======================================== */
+
+.ItemListTop button,
+.ItemListBot button {
+    background-color: rgb(104, 146, 201);
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 10px 18px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.1s ease;
+}
+
+#currentPage{
+    color: rgb(124, 124, 124);
+}
+
+#currentLim {
+    background-color: rgb(42, 66, 99);
+}
+
+.ItemListTop button:hover {
+    background-color: rgb(42, 66, 99);
+}
+
+.ItemListTop button:active {
+    transform: scale(0.98);
+}
+
+
+
+/* ========================================
+   Bottom Bar
+======================================== */
+.ItemListBot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: auto;
+
+}
+.ItemListBot,
+.ItemListBot button {
+    background-color: transparent;
+    
+}
+.ItemListBot .deleteButton{
+    width: 200px;
+    align-self: center;
+    margin: 10px;
+    border: 2px solid #0056b3;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.8);
+}
+
+.ItemListBot .deleteButton:hover{
+    background-color: rgb(53, 81, 118);
+}
+
+.ItemTable{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0057b300;
+}
+
+.ContentContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: rgb(73, 111, 161);
+    border: 2px solid;  
+    border-radius: 10px;
+    overflow: hidden;
+}
+

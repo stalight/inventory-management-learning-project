@@ -1,0 +1,12 @@
+.navbar {
+    padding: 20px;
+    background-color: rgb(42, 40, 55);
+    margin-bottom: 40px;
+}
+
+a {
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgba(0,0,0, 0);
+}

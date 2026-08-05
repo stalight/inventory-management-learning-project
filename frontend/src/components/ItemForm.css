@@ -1,0 +1,81 @@
+.CreateContainer{
+    justify-self: center;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(104, 146, 201);
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.FormRow input, .FormRow h3{
+    background-color: rgba(104, 146, 201, 0);
+    
+}
+
+.FormRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: rgba(104, 146, 201, 0);
+}
+
+
+.FormRow h3{
+    align-self: center;
+}
+
+.buttonArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+#buttonArea1 {
+    margin-bottom: 0px;
+}
+
+.formButton:hover{
+    background-color: rgba(0, 89, 255, 0.538);
+}
+
+.formButton {
+    background-color: rgba(152, 186, 237, 0.538);
+    border: 2px solid black;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 10px 18px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.1s ease;
+}
+
+.FormRow input{
+    background-color: rgb(166, 188, 217);
+    padding-left: 10px;
+    width: 235px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+#formInput {
+    color: black;
+}
+
+
