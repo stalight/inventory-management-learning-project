@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from app.database import Base
+from backend.database import Base
 # Mainly used for query and deleting datas
 
 class Item(Base):

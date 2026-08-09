@@ -1,5 +1,5 @@
-from app.schemas import Item as ItemSchema
-from app.models import Item as ItemModel
+from backend.schemas import Item as ItemSchema
+from backend.models import Item as ItemModel
 from typing import Optional
 import math
 

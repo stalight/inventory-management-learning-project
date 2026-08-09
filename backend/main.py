@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.routers import items
-from app.database import engine, Base
+from backend.routers import items
+from backend.database import engine, Base
 from fastapi.middleware.cors import CORSMiddleware
 
 

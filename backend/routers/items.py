@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from app.schemas import Item
+from backend.schemas import Item
 from typing import Optional
-from app.database import SessionLocal, get_db
-from app.services import crud
+from backend.database import SessionLocal, get_db
+from backend.services import crud
 
 router = APIRouter()
 
